@@ -1,0 +1,25 @@
+mList = [1, 2.0, True, 'Hello']
+print(mList)
+print(mList[3])
+mList.insert(1, 'sha')
+print(mList)
+mList.insert(10, 'xhh')
+print(mList)
+mList[0:0] = ['gsh']
+print(mList)
+mList[0:2] = ['lalala']
+print(mList)
+mList.append('6')
+mList.extend([7, 8, 9])
+print(mList)
+mList.pop()
+print(mList)
+del (mList[0])
+print(mList)
+mList.remove('xhh')
+print(mList)
+mList.reverse()
+print(mList)
+mList = [2, 1, 45, 64, 323, 4]
+mList.sort()
+print(mList)
